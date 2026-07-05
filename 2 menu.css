@@ -1,0 +1,47 @@
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+ 
+  align-items: center;
+  justify-content: center; 
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: none;
+  width: 200px;
+ 
+}
+
+div.gallery-item:hover {
+ solid color: #000;
+}
+
+div.gallery-item img {
+  width: 100%;
+ 
+  border-radius: 20px;
+}
+
+div.gallery-item div.desc {
+  padding: 10px;
+  text-align: center;
+}
+h2{text-align: center;
+
+}
+body{
+    background-color: rgb(247, 231, 213);
+}
+.button{
+    background-color: rgb(230, 162, 61);
+    border: none;
+    color: antiquewhite;
+   padding: 10px;
+   border-radius: 20px;
+
+}
+a{color: rgb(185, 128, 42);
+    text-decoration: none;
+
+}
