@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 body{
-    background-color: rgb(248, 238, 211);
+    background-color: rgb(252, 248, 236);
     color: #333;
     margin-left: 100px;
 }
@@ -21,7 +21,7 @@ nav{
      }
 .hero1{
     flex: 1;
-    margin-top: 100px;
+    margin-top: 0px;
    align-items: center;
    justify-content: center;
 }
@@ -47,7 +47,34 @@ button{
 .hero2{
     flex: 1;
 }
-.image{
-  background: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80");
-    
+.image-wrapper{
+background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80);
+ background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+   }
+.hero2 .top{
+    border-radius: 45%;
+    background: #1f1f1f;
+    padding: 5px 12px;
+    position: absolute;
+    border-color: white;
+    border: 6px;
+    color: white;
+    box-shadow: #fcf6f6;
+    top: 100px;
+    right: 500px;
+ }
+.hero2 .buttom{
+    padding: 10px 10px;
+   bottom: 260px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    color: black;
+    background-color: #fcf6f6;
+    right: 250px;
 }
