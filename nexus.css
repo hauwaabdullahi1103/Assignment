@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+}
+body{ 
+    background: rgba(19, 34, 46, 0.993);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color:transparent;
+    border-bottom: 1px solid;
+    border-color: rgba(94, 98, 101, 0.438);
+    box-shadow: 10px;
+    
+}
+.nav-a{
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 40px;
+    color: rgb(249, 248, 248);
+}
+.nav-b{
+   word-spacing: 20px;
+margin-right: 40px; 
+font-size: small;}
+a{
+text-decoration: none;
+color:  rgb(217, 218, 217);
+cursor: pointer;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero1{
+    margin-top: 80px;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+}
+.hero1 p{
+    font-size: small;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:  rgb(217, 218, 217);;
+}
+.btn-a{
+    background-color: rgba(30, 144, 250, 0.957);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.btn-b{
+    color: white;
+     border: 1px solid rgba(255, 255, 255, .2);
+    background-color: transparent;
+    box-shadow: 5px white;   
+    box-shadow: 6px;
+    padding: 10px;
+    border-radius: 5px;
+}
+div.hero2{
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    flex-direction: row;
+    background-color:transparent;
+        gap: 20px;
+    max-width: 600px;
+    max-height:200px;
+    margin-top: 100px;
+    background-color: transparent;
+    
+    }
+    .light{
+        border-radius: 5px; 
+background-color: rgba(54, 65, 74, 0.594); 
+padding:15px  30px ;
+
+    }
+    .lock{
+ border-radius: 5px; 
+background-color: rgba(54, 65, 74, 0.594); 
+padding:15px  30px ;
+
+    }
+    .charger{
+ border-radius: 5px; 
+background-color: rgba(54, 65, 74, 0.594); 
+padding:15px  30px ;
+
+    }
+span{
+    margin-bottom: 5px;
+}
+
+div.hero2:hover {
+ solid color: #000;
+}
+h3{
+    font-weight: bolder;
+    color: white
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+.detail{
+    color: rgb(217, 218, 217);
+    font-size: small;
+    font-weight: lighter;
+}
+.x{
+    color: rgb(0, 102, 255);
+    margin-left: -5px;
+    font-weight: bolder;
+    font-size: larger;
+}
+h1{
+   background: linear-gradient(to right,rgb(67, 118, 193) 20%,rgb(184, 59, 184));
+   -webkit-background-clip: text;
+   color: transparent;
+   display: inline-block;
+}
